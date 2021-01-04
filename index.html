@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glozzom</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+      <div class="container">
+        <div class="navbar-brand">Glozzom</div>
+
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse d-sm-flex justify-content-end"
+          id="navbarCollapse"
+        >
+          <ol class="navbar-nav text-center">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#home" class="nav-link">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a href="#home" class="nav-link">SERVICE</a>
+            </li>
+            <li class="nav-item">
+              <a href="#home" class="nav-link">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a href="#home" class="nav-link">CONTACT</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section class="carousel slide" data-bs-ride="carousel" id="carousel-slide">
+      <!-- Carousel Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-slide" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-slide" data-slide-to="1"></li>
+        <li data-target="#carousel-slide" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel Inner -->
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="carousel-item-1">
+          <div class="carousel-caption">
+            <h5 class="display-1">Carousel 1</h5>
+            <p class="lead">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              a maiores aliquam.
+            </p>
+            <div>
+              <button class="btn btn-primary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" id="carousel-item-2">
+          <div class="carousel-caption caption-right">
+            <h5 class="display-1">Carousel 2</h5>
+            <p class="lead">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              a maiores aliquam.
+            </p>
+            <div>
+              <button class="btn btn-secondary">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" id="carousel-item-3">
+          <div class="carousel-caption caption-left">
+            <h5 class="display-1">Carousel 3</h5>
+            <p class="lead">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+              a maiores aliquam.
+            </p>
+            <div>
+              <button class="btn btn-warning">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#carousel-slide"
+        class="carousel-control-prev"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a
+        href="#carousel-slide"
+        class="carousel-control-next"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </section>
+
+    <!-- Showcase -->
+    <!-- Turning Gears, sending data, making money -->
+    <div class="container py-5">
+      <section
+        class="showcase d-flex justify-content-center flex-md-nowrap flex-wrap"
+      >
+        <div class="text-center p-2">
+          <i class="fas fa-cog"></i>
+          <h3>Turning Gears</h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nihil
+            dolor odio illum sequi quasi.
+          </p>
+        </div>
+        <div class="text-center p-2">
+          <i class="fas fa-cloud"></i>
+          <h3>Sending Data</h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nihil
+            dolor odio illum sequi quasi.
+          </p>
+        </div>
+        <div class="text-center p-2">
+          <i class="fas fa-cart-plus"></i>
+          <h3>Making Money</h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nihil
+            dolor odio illum sequi quasi.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Ready to get started -->
+    <section id="get-started" class="text-center p-5">
+      <section class="container mx-auto text-white">
+        <h3 class="header">Are you ready to get started?</h3>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio,
+          obcaecati cumque numquam dicta, ut voluptatum impedit atque totam sit
+          explicabo, quia accusantium ipsa commodi laboriosam nihil perspiciatis
+          dolore saepe iure!
+        </p>
+      </section>
+    </section>
+
+    <!-- Home Info -->
+    <section id="home-info" class="container">
+      <div class="d-flex justify-content-center p-5">
+        <section class="lead align-self-center w-50" id="home-info__text">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            doloremque earum omnis aliquid eum tempora voluptates consectetur
+            nemo rem neque. <br />
+          </p>
+          <a href="#" class="btn btn-outline-dark">Read More</a>
+        </section>
+        <section class="text-center align-self-center w-50" id="home-info__img">
+          <img src="./img/home-info.jpg" class="w-75" alt="" />
+        </section>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video">
+      <div class="text-center py-5">
+        <i class="fas fa-play video-play-icon text-lg text-danger"></i>
+        <h2 class="uppercase mt-4 text-white">Watch out our videos</h2>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+      <h3 class="text-center my-5">Gallery</h3>
+      <div class="container d-md-flex">
+        <div class="gallery__img-1"></div>
+        <div class="gallery__img-2"></div>
+        <div class="gallery__img-3"></div>
+      </div>
+      <div class="container d-md-flex">
+        <div class="gallery__img-4"></div>
+        <div class="gallery__img-5"></div>
+        <div class="gallery__img-6"></div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="newsletter" class="text-white bg-light-dark p-5 mt-5">
+      <div class="container text-white text-center">
+        <h1 class="capitalize">Signup for our newsletter</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus,
+          dolor facere! Dolorum repellat illum dolore, magnam rem veritatis at
+          sed recusandae fugiat tempora possimus deleniti.
+        </p>
+        <div class="newsletter__form row">
+          <div class="col-md-5 col-sm-6 p-1">
+            <input type="text" class="form-control" placeholder="Enter name" />
+          </div>
+          <div class="col-md-5 col-sm-6 p-1">
+            <input type="text" class="form-control" placeholder="Enter email" />
+          </div>
+          <div class="col-md-2 text-right p-1">
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer id="copy-right" class="bg-dark p-4">
+      <h3 class="text-white text-center">Copyright &copy; 2021</h3>
+    </footer>
+  </body>
+</html>
