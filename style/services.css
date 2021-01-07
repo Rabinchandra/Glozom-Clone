@@ -1,0 +1,6 @@
+.showcase {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/services-showcase.jpg) fixed;
+  background-position: 0 500px;
+  background-size: cover;
+}

@@ -1,0 +1,133 @@
+/* Elements */
+.carousel {
+  overflow: hidden;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-caption {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#carousel-item-1 {
+  background: url(../img/1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#carousel-item-2 {
+  background-image: url(../img/2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+#carousel-item-3 {
+  background-image: url(../img/3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.caption-right {
+  text-align: right;
+}
+
+.caption-left {
+  text-align: left;
+}
+
+.showcase i {
+  font-size: 3em;
+  margin: 12px;
+}
+
+/* Get Started */
+#get-started {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./img/showcase.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Home info */
+.home-info__img {
+  object-fit: contain;
+}
+
+@media screen and (max-width: 770px) {
+  #home-info > div {
+    flex-direction: column;
+  }
+
+  #home-info__img {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  #home-info__img img {
+    width: 100% !important;
+  }
+
+  #home-info__text {
+    width: 100% !important;
+  }
+}
+
+/* Video Section */
+#video {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../img/video-section.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* Gallery */
+#gallery .container > div {
+  background-size: cover;
+  background-position: center center;
+  flex: 1;
+  height: 250px;
+  margin: 12px;
+}
+
+.gallery__img-1 {
+  background-image: url(../img/gallery/gallery-img-1.jpg);
+}
+
+.gallery__img-2 {
+  background-image: url(../img/gallery/gallery-img-2.jpg);
+}
+
+.gallery__img-3 {
+  background-image: url(../img/gallery/gallery-img-3.jpg);
+}
+
+.gallery__img-4 {
+  background-image: url(../img/gallery/gallery-img-4.jpg);
+}
+
+.gallery__img-5 {
+  background-image: url(../img/gallery/gallery-img-5.jpg);
+}
+
+.gallery__img-6 {
+  background-image: url(../img/gallery/gallery-img-6.jpg);
+}
+
+/* Footer */
+#newsletter > .container {
+  max-width: 800px;
+}

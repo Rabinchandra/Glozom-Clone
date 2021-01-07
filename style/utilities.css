@@ -1,0 +1,37 @@
+/* Global*/
+.capitalize {
+  text-transform: capitalize;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-sm {
+  font-size: 0.9em;
+}
+
+.text-md {
+  font-size: 2em;
+}
+
+.text-lg {
+  font-size: 3.5em;
+}
+
+.bg-light-dark {
+  background-color: #343a40;
+}
+
+.hover-underlined:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.flex-basis-30 {
+  flex-basis: 30% !important;
+}
+
+.flex-basis-50 {
+  flex-basis: 50% !important;
+}
