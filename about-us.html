@@ -19,6 +19,13 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <!-- Navbar -->
@@ -56,5 +63,172 @@
         </div>
       </section>
     </nav>
+
+    <!-- Showcase -->
+    <section id="showcase" class="py-5">
+      <div class="container text-center text-white">
+        <h3 class="capitalize">About us</h3>
+        <p class="lead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, ipsa.
+        </p>
+      </div>
+    </section>
+
+    <section id="what-we-do" class="p-5">
+      <div
+        class="container d-md-flex justify-content-around align-items-center p-5"
+      >
+        <section class="flex-basis-50">
+          <h3 class="capitalize">What we do</h3>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea
+            laborum itaque voluptate praesentium dolores sequi nesciunt quisquam
+            ex tenetur!
+          </p>
+          <p class="lead">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            explicabo deleniti vitae assumenda tenetur! Commodi sunt mollitia
+            modi ullam quaerat.
+          </p>
+        </section>
+        <section class="flex-basis-30 text-center">
+          <img
+            src="./img/about-us-img.jpg"
+            alt=""
+            class="what-we-do__img w-75 rounded-circle"
+          />
+        </section>
+      </div>
+    </section>
+
+    <section id="icon-boxes">
+      <div class="container d-md-flex justify-content-around">
+        <!-- Card 1 -->
+        <div class="card bg-success text-white flex-basis-30">
+          <div class="card-body text-center">
+            <i class="fas fa-envelope text-lg"></i>
+            <h3 class="capitalize py-2">Lorem Ipsum</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              nam incidunt totam blanditiis voluptatibus doloribus.
+            </p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="card bg-dark text-white flex-basis-30">
+          <div class="card-body text-center">
+            <i class="fas fa-car text-lg"></i>
+            <h3 class="capitalize py-2">Lorem Ipsum</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              nam incidunt totam blanditiis voluptatibus doloribus.
+            </p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="card bg-primary text-white flex-basis-30">
+          <div class="card-body text-center">
+            <i class="fas fa-play text-lg"></i>
+            <h3 class="capitalize py-2">Lorem Ipsum</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              nam incidunt totam blanditiis voluptatibus doloribus.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-md-3 d-md-flex justify-content-around">
+        <!-- Card 4 -->
+        <div class="card bg-warning text-dark flex-basis-30">
+          <div class="card-body text-center">
+            <i class="fas fa-tree text-lg"></i>
+            <h3 class="capitalize py-2">Lorem Ipsum</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              nam incidunt totam blanditiis voluptatibus doloribus.
+            </p>
+          </div>
+        </div>
+        <!-- Card 5 -->
+        <div class="card bg-info text-white flex-basis-30">
+          <div class="card-body text-center">
+            <i class="fas fa-cart-plus text-lg"></i>
+            <h3 class="capitalize py-2">Lorem Ipsum</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              nam incidunt totam blanditiis voluptatibus doloribus.
+            </p>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="card bg-light text-dark flex-basis-30">
+          <div class="card-body text-center">
+            <i class="fab fa-youtube-square text-lg"></i>
+            <h3 class="capitalize py-2">Lorem Ipsum</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              nam incidunt totam blanditiis voluptatibus doloribus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonial mt-5">
+      <div class="container text-center">
+        <h2>Testimonials</h2>
+        <!--Carousel -->
+        <section
+          class="carousel slide"
+          data-bs-ride="carousel"
+          id="testimonialCarousel"
+        >
+          <!-- Carousel inner -->
+          <div class="carousel-inner p-5">
+            <div class="carousel-item active">
+              <blockquote class="blockquote fst-italic">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  tenetur ut molestias excepturi velit aperiam?
+                </p>
+                <footer class="blockquote-footer text-capitalize mt-3">
+                  Moshiur from <a href="#">coders foundation</a>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote fst-italic">
+                <p class="lead">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Distinctio debitis dolorem velit id rerum deserunt.
+                </p>
+                <footer class="blockquote-footer text-capitalize mt-3">
+                  Munna from <a href="#">coder foundation</a>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+          <!-- Controls -->
+          <a
+            href="#testimonialCarousel"
+            class="carousel-control-prev"
+            data-bs-slide="prev"
+          >
+            <i class="fas fa-chevron-left text-dark"></i>
+          </a>
+          <a
+            href="#testimonialCarousel"
+            class="carousel-control-next"
+            data-bs-slide="next"
+          >
+            <i class="fas fa-chevron-right text-dark"></i>
+          </a>
+        </section>
+      </div>
+    </section>
+    <footer id="copy-right" class="text-center bg-dark p-4">
+      <h3 class="lead text-white">Copyright 2021 &copy; Glozzom</h3>
+    </footer>
   </body>
 </html>

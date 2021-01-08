@@ -1,0 +1,5 @@
+#showcase {
+  background: url(../img/1.jpg) fixed;
+  background-position: center center;
+  background-size: cover;
+}

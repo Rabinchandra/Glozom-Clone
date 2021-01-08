@@ -35,3 +35,13 @@
 .flex-basis-50 {
   flex-basis: 50% !important;
 }
+
+@media (min-width: 720px) {
+  .mt-md-3 {
+    margin-top: 2em;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
