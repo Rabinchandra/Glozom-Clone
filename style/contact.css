@@ -1,0 +1,14 @@
+#showcase {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/2.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.contact-form {
+  flex: 0.65;
+}
+
+.contact-info {
+  flex: 0.3;
+}
